@@ -9,4 +9,4 @@
   display: false
 - url: '#footer'
   text: Contact
-  display: true
+  display: false
