@@ -1,0 +1,23 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+
+  {% include mainNav.html %}
+
+  {{ content }}
+
+  {% if site.data.display.footer %}
+  {% include footer.html %}
+  {% endif %}
+
+  {% include bodyScripts.html %}
+
+</body>
+
+</html>
